@@ -1,10 +1,11 @@
 # encoding: utf-8
+# Finnish translations by Laura Guillén
 module R18n
   class Locales::Fi < Locale
     set :title => 'Suomi',
         
-        :wday_names => %w{sunnuntai maanantai tiistai keskiviikko torstai terjantai lauantai},
-        :wday_abbrs => %w{su ma ti ke to te la},
+        :wday_names => %w{sunnuntai maanantai tiistai keskiviikko torstai perjantai lauantai},
+        :wday_abbrs => %w{su ma ti ke to pe la},
         
         :month_names => %w{tammikuu helmikuu maaliskuu huhtikuu toukokuu kesäkuu
                          heinäkuu elokuu syyskuu lokakuu marraskuu joulukuu},
